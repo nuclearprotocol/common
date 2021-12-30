@@ -711,6 +711,24 @@ export const knownSubstrate: KnownSubstrate[] = [
     website: 'https://totemaccounting.com'
   },
   {
+    decimals: [10],
+    displayName: 'Interlay',
+    network: 'interlay',
+    prefix: 2032,
+    standardAccount: '*25519',
+    symbols: ['INTR'],
+    website: 'https://interlay.io/'
+  },
+  {
+    decimals: [12],
+    displayName: 'Kintsugi',
+    network: 'kintsugi',
+    prefix: 2092,
+    standardAccount: '*25519',
+    symbols: ['KINT'],
+    website: 'https://interlay.io/'
+  },
+  {
     decimals: [18],
     displayName: 'Subspace testnet',
     network: 'subspace_testnet',
@@ -741,7 +759,7 @@ export const knownSubstrate: KnownSubstrate[] = [
     decimals: [12],
     displayName: 'CESS Testnet',
     network: 'cess-testnet',
-    prefix: 10042,
+    prefix: 11330,
     standardAccount: '*25519',
     symbols: ['TCESS'],
     website: 'https://cess.cloud'
@@ -750,7 +768,7 @@ export const knownSubstrate: KnownSubstrate[] = [
     decimals: [12],
     displayName: 'CESS',
     network: 'cess',
-    prefix: 10043,
+    prefix: 11331,
     standardAccount: '*25519',
     symbols: ['CESS'],
     website: 'https://cess.cloud'

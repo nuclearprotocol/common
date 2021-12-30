@@ -1,0 +1,16 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "baseUrl": "..",
+    "outDir": "./build",
+    "rootDir": "./src"
+  },
+  "exclude": [
+    "**/*.spec.ts"
+  ],
+  "references": [
+    { "path": "../hw-ledger" },
+    { "path": "../util" },
+    { "path": "../x-fetch" }
+  ]
+}

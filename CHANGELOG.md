@@ -1,11 +1,32 @@
 # CHANGELOG
 
-## master
+Changes:
+
+- Pin `@noble/hashes` to 0.5.5, 0.5.6 version is broken for rollup
+- Add all known Rococo genesis hashes
+- Upgrade 3rd party dependencies
+
+
+## 8.2.2 Dec 19, 2021
+
+Contributed:
+
+- Add Bifrost Ledger capabilities (Thanks to https://github.com/awesomepan)
+- Add Sora genesisHash & Ledger capabilities (Thanks to https://github.com/NoodleSploder)
 
 Changes:
 
-- Swap to upstream `@noble/hashes`
+- Add `isPromise` check utility function
+- Add `assertUnreachable` for codepaths that should not be followed
 - Preserve all-caps word splits in `stringCamelCase`
+- Adjust `x-*` fallbacks via `x-global/extractGlobal`
+- Sync with upstream Substrate ss58 registry
+- Additional tests for `bip39` wordlists
+- Maintainability cleanups
+- Update to latest Ledger dependencies
+- Swap to upstream `@noble` packages
+- Adjust tsconfig with references
+- 8.2.2 (8.2.1 failed CI due to incorrect CHANGELOG)
 
 
 ## 8.1.2 Dec 5, 2021
